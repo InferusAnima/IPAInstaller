@@ -1,3 +1,31 @@
-<head><script>var handleClick = function() {
-  window.location.href=‘itms-services://?action=download-manifest&amp;url=https://storage.googleapis.com/thunkable-x-production-ipas/users/5d88962608f7a8032e6c3991/projects/5d88966186aa7afd7312d266/ipas/84cff994-2d6c-445e-896f-52cae5c3e92f/manifest.plist’;
-}</script></head><body><div class=“centerFlex flexContainer”><div class=“centerFlex”><button class=“massive blue ui button” onclick=“handleClick()”><i class=“download icon”></i>Download</button></body>
+<!DOCTYPE html  >
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Your App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" rel="stylesheet" />
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+	<script src="main.js"></script>
+    <script>
+        var handleClick = function() {
+            window.location.href = 'itms-services://?action=download-manifest&amp;url=https://storage.googleapis.com/thunkable-x-production-ipas/users/5d88962608f7a8032e6c3991/projects/5d88966186aa7afd7312d266/ipas/84cff994-2d6c-445e-896f-52cae5c3e92f/manifest.plist';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="centerFlex flexContainer">
+        <div class="centerFlex">
+            <button class="massive blue ui button" onclick="handleClick()"><i class="download icon"></i>Download</button>
+            <div class="notes">
+                <p><i class="info icon"></i>Only works on iPhone / iPad browser</p>
+                <p><i class="info icon"></i>App only works in iOS 10 or above</p>
+                <p><i class="exclamation triangle icon"></i>The link will expire in 24 hours</p>
+                <p><i class="bug icon"></i><a href="https://docs.thunkable.com/thunkable-cross-platform/download#download-and-install-ios-app">Troubleshooting </a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
