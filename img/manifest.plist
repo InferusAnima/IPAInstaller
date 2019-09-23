@@ -17,7 +17,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.thunkable.testapp1</string>
+				<string>com.infr.img</string>
 				<key>bundle-version</key>
 				<string>6.0</string>
 				<key>kind</key>
