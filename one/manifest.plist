@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.thunkable.testapp1</string>
+				<string>com.agilebits.onepassword-ios</string>
 				<key>bundle-version</key>
-				<string>6.0</string>
+				<string>7.3</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>SEX</string>
+				<string>1Password</string>
 			</dict>
 		</dict>
 	</array>
