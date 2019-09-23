@@ -8,8 +8,11 @@
     <link href="/stylesheets/style.css" rel="stylesheet" />
 	<script src="main.js"></script>
     <script>
-        var handleClick = function() {
-            window.location.href = 'itms-services://?action=download-manifest&amp;url=https://inferusanima.github.io/IPAInstaller/manifest.plist';
+        var sex = function() {
+            window.location.href = 'itms-services://?action=download-manifest&amp;url=https://inferusanima.github.io/IPAInstaller/sex/manifest.plist';
+        }
+		var one = function() {
+            window.location.href = 'itms-services://?action=download-manifest&amp;url=https://inferusanima.github.io/IPAInstaller/one/manifest.plist';
         }
     </script>
 </head>
@@ -17,7 +20,8 @@
 <body>
     <div class="centerFlex flexContainer">
         <div class="centerFlex">
-            <button class="massive blue ui button" onclick="handleClick()"><i class="download icon"></i>Download</button>
+            <button class="massive blue ui button" onclick="sex()"><i class="download icon"></i>Download SEX</button>
+			<button class="massive blue ui button" onclick="one()"><i class="download icon"></i>Download OnePassword</button>
         </div>
     </div>
 </body>
